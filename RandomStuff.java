@@ -17,6 +17,21 @@ public class RandomStuff {
 
     	System.out.println(y);
 
+		//range -3 to 8
+		int a = (int)(Math.random()*12 - 3);
+		System.out.println(a);
+
+		Random rand2 = new Random();
+		int b = rand.nextInt(12)-3;
+		System.out.println(b);
+
+		//range 13 to 27
+		int c = (int)(Math.random()*15 + 13);
+		System.out.println(c);
+
+		Random rand3 = new Random();
+		int d = rand.nextInt(15) + 13;
+		System.out.println(d);
     }
 
 
