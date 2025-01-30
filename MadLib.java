@@ -51,16 +51,14 @@ public class MadLib
 
 			//Read the different parts of the story and concatenate the resulting
 			//story using the symbols to tell you the parts of speech
-			Scanner reader = new Scanner(new File("story.dat"));
+			Scanner reader = new Scanner(new File(fileName));
 
 			while(reader.hasNext())
 				file += "" + reader.next() + " ";
 
 			reader.close();
-
+			
 			Scanner chopper = new Scanner(file);
-
-			System.out.println(story);
 
 			while(chopper.hasNext())
 			{
