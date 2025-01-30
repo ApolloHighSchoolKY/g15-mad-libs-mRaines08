@@ -58,8 +58,6 @@ public class MadLib
 
 			reader.close();
 
-			System.out.println("file = " + file);
-
 			Scanner chopper = new Scanner(file);
 
 			System.out.println(story);
